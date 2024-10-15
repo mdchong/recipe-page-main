@@ -107,6 +107,7 @@ textarea:not([rows]) {
 
     /* Font Size */
     --size-16: 1rem;
+    --size-18: 1.125rem;
     --font-20: 1.25rem;
     --font-24: 1.5rem;
     --font-32: 2rem;
@@ -127,6 +128,15 @@ body {
     min-height: 100svh;
     font-family: var(--outfit);
     font-size: var(--size-16);
+    color: var(--stone-600);
+    display: flex;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
@@ -135,30 +145,37 @@ body {
 
 .header {
     font-family: var(--young-serif);
+    font-size: var(--font-32);
     font-weight: var(--weight-400);
     color: var(--stone-900);
-    font-size: var(--font-32);
+    margin: 2.5rem 1.5rem 2rem 1.5rem;
+}
+
+.description {
+    margin: 2rem 1.5rem;
 }
 
 .small {
-    font-family: var(--young-serif);
-    color: var(--brown-800);
     font-size: var(--font-24);
+    color: var(--brown-800);
+    margin: 0;
 }
 
 .preparation {
     background: var(--rose-50);
-    margin: 2rem 1.25rem;
+    padding: 1.25rem;
+    margin: 2rem 1.5rem;
     border-radius: 10px;
 }
 
-.preparation .small {
-    color: var(--rose-800);
-    font-family: var(--outfit);
-    font-weight: var(--weight-600);
-    font-size: var(--font-20);
+section {
+    margin: 1.5rem;
 }
 
-ul, ol {
-    padding-left: 1rem;
+.preparation .header.small {
+    font-family: var(--outfit);
+    font-size: var(--size-18);
+    font-weight: var(--weight-600);
+    color: var(--rose-800);
+    margin: 0;
 }
