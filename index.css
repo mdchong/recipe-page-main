@@ -143,16 +143,20 @@ main {
     max-width: 54rem;
 }
 
+.recipe {
+    margin: 2.5rem 1.5rem 2rem 1.5rem;
+    padding: 0;
+}
+
 .header {
     font-family: var(--young-serif);
     font-size: var(--font-32);
     font-weight: var(--weight-400);
     color: var(--stone-900);
-    margin: 2.5rem 1.5rem 2rem 1.5rem;
 }
 
 .description {
-    margin: 2rem 1.5rem;
+    margin: 2rem 0;
 }
 
 .small {
@@ -164,8 +168,11 @@ main {
 .preparation {
     background: var(--rose-50);
     padding: 1.25rem;
-    margin: 2rem 1.5rem;
     border-radius: 10px;
+}
+
+section {
+    margin: 2rem 0;
 }
 
 ul, ol {
@@ -174,10 +181,6 @@ ul, ol {
 
 li {
     padding-left: 1rem;
-}
-
-section {
-    margin: 2rem 1.5rem;
 }
 
 section:not(.nutrition) {
