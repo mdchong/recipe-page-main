@@ -171,16 +171,11 @@ main {
     border-radius: 10px;
 }
 
+ul ol {
+}
+
 section {
     margin: 2rem 0;
-}
-
-ul, ol {
-    padding-left: 1rem;
-}
-
-li {
-    padding-left: 1rem;
 }
 
 section:not(.nutrition) {
