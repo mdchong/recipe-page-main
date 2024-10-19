@@ -2,7 +2,8 @@
 
 /* ============== */
 
-/* CSS Reset */
+/* CSS Reset by Andy Bell */
+/* https://piccalil.li/blog/a-more-modern-css-reset/ */
 /* Box sizing rules */
 *,
 *::before,
@@ -133,7 +134,7 @@ body {
 }
 
 .container {
-    max-width: 54rem;
+    max-width: 45rem;
     background-color: var(--white);
 }
 
