@@ -17,7 +17,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Screenshot
 
 <img src="./assets/screenshot/desktop.png">
-<img src="./assets/screenshot/mobile.png">
+<img src="./assets/screenshot/mobile.png" width="250" height="auto">
 
 ### Links
 
